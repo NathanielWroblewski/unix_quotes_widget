@@ -1,0 +1,23 @@
+$background-color:  #030C22;
+$full-color:  rgba(255, 255, 255, 1);
+$light-color: rgba(255, 255, 255, 0.7);
+$really-light-color: rgba(255, 255, 255, 0.4);
+
+.unix {
+  background-color: $background-color;
+
+  .maxim {
+    margin-bottom: 20px;
+  }
+
+  .content {
+    color: $light-color;
+    font-size: 18px;
+    text-align:justify;
+  }
+
+  .updated-at {
+    color: $really-light-color;
+  }
+}
+
